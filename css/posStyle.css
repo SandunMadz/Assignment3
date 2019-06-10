@@ -1,0 +1,143 @@
+
+/*.navbarsp{*/
+    /*overflow: hidden;*/
+    /*background-color: #333;*/
+
+    /*height: 30px;*/
+
+
+
+
+/*}*/
+body{
+    background-color: #EEEEEE;
+}
+.pad{
+
+    padding: 0px;
+}
+.leftpad{
+    padding-left: 15px;
+    margin-right: 60px;
+}
+.box{
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+
+}
+.rows{
+    height: 30px;
+}
+.mag{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.   btnpad{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+.q{
+    height: 38px;
+    margin-top: 5px;
+}
+.navbtn{
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+
+}
+.hdimg{
+    margin-top: 5px;
+    margin-left:  50px;
+}
+
+
+.cls{
+    margin: auto;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    object-fit:fill;
+    height: 100px;
+    width: 100px;
+
+}
+.main{
+
+    height: 100px;
+}
+.box{
+
+    width: 200px;
+    height: 460px;
+    background-color: white;
+    top: 110px;
+    left: 10px;
+    position: fixed;
+
+
+}
+.rowstyle{
+    margin-left: 210px;
+    height: 30px;
+    margin-top: 22px;
+
+}
+.colo{
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: inset;
+
+    border-radius: 20px;
+
+
+
+}
+.hed{
+    margin-bottom: 5px;
+
+    top: 0%;
+}
+
+.nav{
+
+    background-color: #233E99;
+    margin-top: 50px;
+
+
+}
+.dtlbtn{
+    top:0px;
+margin-left: 10px;
+
+    bottom: 0px;
+    height: 30px;
+    padding-top: 3px;
+    margin-bottom: 15px;
+
+}
+h5{
+    margin-left: 10px;
+    color: #0f6674;
+    margin-bottom: 3px;
+}
+h6{
+    margin-left: 10px;
+    margin-bottom: 3px;
+    position: center;
+}
+.pra{
+    color: white;
+    margin-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/MyStyle2.css" type="text/css">
+    <link rel="stylesheet" href="css/sideNav.css"type="text/css">
+    <link rel="stylesheet" href="css/posStyle.css"type="text/css">
+    <link rel="stylesheet" href="css/MyStyle.css"type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+
+
+
+
+
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <img src="img/50574168_393985464685582_7645768933433147392_n.jpg" class=" position-relative mimge " alt="Cinque Terre" width="80" height="80" >
+    <h4 style="color: white">_Sandun madushan_</h4>
+    <h6 style="color: white">________Ijse Student______</h6>
+    <hr >
+    <div>
+        <a href="posCustomer.html "style= padding-left:8px><button type="button" class="btn btn-primary btn-lg btn-block btns"><span>Customers</span></button></a>
+        <a href="posItem.html"style= padding-left:8px>  <button type="button" class="btn btn-warning btn-lg btn-block btns"><span>Items</span> </button></a>
+        <a href=""style= padding-left:8px> <button type="button" class="btn btn-danger btn-lg btn-block btns"><span>Orders</span> </button></a>
+        <a href="posMain.html"style= padding-left:8px>  <button type="button" class="btn btn-dark btn-lg btn-block btns"><span>Store</span> </button></a>
+        <a href=""style= padding-left:8px> <button type="button" class="btn btn-success btn-lg btn-block btns"><span>Populer Sales</span> </button></a>
+        <a href=""style= padding-left:8px> <button type="button" class="btn btn-info btn-lg btn-block btns"><span>Flash Deal</span> </button></a>
+        <a href=""style= padding-left:8px>  <button type="button" class="btn btn-secondary btn-lg btn-block btns"><span>Profit</span> </button></a>
+    </div>
+
+</div>
+
+<div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+
+    <!--nav bar start-->
+    <nav class="navbar navbar-expand-lg " style="background: linear-gradient(to top,darkcyan,midnightblue,black)">
+        <a  class="navbar-brand leftpad" href="#" style="color: white ">Cedar</a>
+        <button class="navbar-toggler leftpad " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+                <li class="nav-item">
+                    <a href="posCustomer.html"> <button type="button" class="btn btn-outline-success navbtn">Customer</button></a>
+                </li>
+                <li class="nav-item">
+                    <a href="posItem.html"><button type="button" class="btn btn-outline-success navbtn">Item</button></a>
+                </li>
+                <li class="nav-item">
+                    <a href="test.html"> <button type="button" class="btn btn-outline-success navbtn">order</button></a>
+                </li>
+                <li class="nav-item">
+                    <img src="posInamge/0024921_huawei-y9-2019original-set-by-huawei-malaysia-3-freebies_600.jpeg" class=" position-relative imge " style="margin-top: 5px" alt="Cinque Terre" width="30" height="30" >
+                </li>
+                <li class="nav-item ">
+                    <p class="pra" >Sandun madushan</p>
+                </li>
+
+
+
+
+            </ul>
+
+        </div>
+    </nav><!--nav bar end-->
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="row rows">
+            <div class="col-12 col-sm-12 col-xl-6 bg-white">
+                <div class="card border-secondary mb-3" style="max-width: 36rem;">
+                    <div class="card-header"style="background-color: #3072AC;color: white">Cusromer Detail</div>
+                    <div class="card-body">
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">customer name</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="name" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon2">address</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="address" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon3">tel</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="tel" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+
+
+
+
+
+                        <br>
+
+                        <button type="button" class="btn btn-secondary">new customer</button>
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div><!--col-1-->
+
+
+            <div class="col-12 col-sm-12 col-xl-6 bg-white">
+                <div class="card border-secondary mb-3" style="max-width: 36rem;">
+                    <div class="card-header"style="background-color: #3072AC;color: white;padding: 10px">Items select</div>
+                    <div class="card-body">
+
+
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon5">Item</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="item" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon6">price</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="price" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon7">qty</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="qty" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon8">Description</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Description" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+
+
+
+
+                        <br>
+
+                        <button type="button" class="btn btn-danger">Add order</button>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div><!--col-1-->
+
+
+
+
+            <div class="container-fluid">
+                <div class="row " style="bottom: 0px">
+                    <div class="col-12 col-sm-12 col-xl-6 bg-white">
+                        <div class="card border-secondary mb-3" style="max-width: 36rem;">
+                            <div class="card-header"style="background-color: #3072AC;color: white;padding: 10px">Items select</div>
+                            <div class="card-body">
+
+
+
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon5">Date</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="yyyy/mm/dd" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+
+
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon6">OID</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="price" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div><!--col-1-->
+
+                    <div class="col-6 col-sm-3 col-xl-3 bg-white" >
+
+                        <div class="card" style="width: 10rem;">
+                            <img src="posInamge/all-about-pareto-chart-and-analysis.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row bg-white">
+                            <div class="card" style="width: 10rem;">
+                                <img src="posInamge/18482838.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="col-6 col-sm-3 col-xl-3 bg-white" >
+
+                        <div class="card" style="width: 10rem;">
+                            <img src="posInamge/-image02-1-png.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row bg-white">
+                            <div class="card" style="width: 10rem;">
+                                <img src="posInamge/-telerik-reporting-rose-(bar)-chart-png.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="container-fluid">
+                <div class="row " style="bottom: 0px">
+                    <div class="col-12 bg-white">
+                        <table class="table">
+                            <thead class="thead"style="background-color: #3072AC">
+                            <tr>
+                                <th scope="col">name</th>
+                                <th scope="col">price</th>
+                                <th scope="col">qty</th>
+                                <th scope="col">tot</th>
+
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+
+                            </tr>
+
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div><!--row end-->
+    </div><!--container-fluid end-->
+
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "15px";
+        document.getElementById("main").style.marginLeft= "15px";
+    }
+</script>
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
